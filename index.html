@@ -14,7 +14,7 @@
       <nav class="header_menu">
         <ul class="header_links-list">
           <li class="header_links-list-item_no-bullit">
-            <a class="header_link_active" href="#0">главная</a>
+            <a class="header_link header_link_active" href="#0">главная</a>
           </li>
           <li class="header_links-list-item">
             <a class="header_link" href="#0">посмотреть лоты</a>
@@ -31,14 +31,14 @@
           alt="черный логотип сайта"
         />
       </a>
-      <adress class="header_adress">
-        <a class="phone" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="email" href="info@sobaka.ge">info@sobaka.ge</a>
-        <a class="adress"
-          >наб. Принсенграхт 263- <br />
-          265, Амстердам</a
-        >
-      </adress>
+      <div class="address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="info@sobaka.ge">info@sobaka.ge</a>
+        <address class="header_address">
+          наб. Принсенграхт 263- <br />
+          265, Амстердам
+        </address>
+      </div>
     </header>
     <main>
       <section class="cover">
@@ -60,74 +60,80 @@
             </span>
           </h1>
           <div class="cover_description">
-            <h4 class="cover_description-text">
+            <h2 class="cover_description-text">
               Аукцион вещей, в которые никто не верил
-            </h4>
+            </h2>
             <button class="bet-button" type="button">Сделать ставку</button>
           </div>
         </div>
       </section>
-      <section class="lots">
+      <section class="lots">        
         <h2 class="lots_heading">лоты</h2>
         <ul class="lots_card-list">
           <li class="lots_card-list-item">
-            <a href="#" class="card-link"></a>
+            <a href="#" class="card-link">
             <article class="card">
-              <div class="card_type_film"></div>
-              <div class="overlay">
+              <div class="overlay"></div>
+              <div class="card_type card_type_film">
+                <div class="card_type"></div>
                 <h3 class="card_title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
-                <p class="card_text_film">
-                  Не просто бросил, а ушёл <br />
-                  с первой лекции. Какой была бы ваша ставка, <br />
+              </a>
+                <p class="card_text card_text_film">
+                  Не просто бросил, а ушёл 
+                  с первой лекции. Какой была бы ваша ставка, 
                   если бы вы не знали, что режиссёр — Пол Томас Андерсон?
                 </p>
-              </div>
-            </article>
+              </div>  
+           </article>
+          
           </li>
           <li class="lots_card-list-item">
-            <a href="#" class="card-link"></a>
+            <a href="#" class="card-link">
             <article class="card">
-              <div class="card_type_book"></div>
-
-              <div class="overlay">
+              <div class="overlay"></div>
+              <div class="card_type card_type_book">
                 <h3 class="card_title">
-                  Книга, где описан один скучный день<br />
-                  из жизни <br />рекламного агента
+                  Книга, где описан один скучный день
+                  из жизни рекламного агента
                 </h3>
-                <p class="card_text_book">
-                  Объёмом почти в тысячу страниц. Иногда без <br />
+              </a>
+                <p class="card_text card_text_book">
+                  Объёмом почти в тысячу страниц. Иногда без 
                   знаков препинания и с переходами на древнеанглийский. В ней
                   одновременно рассказывается о 16 июня 1904 года и об истории
-                  литературы, начиная с античных времён. И это <br />
+                  литературы, начиная с античных времён. И это 
                   всё накладывается на эпическую поэму Гомера. Сколько бы вы
-                  поставили <br />
+                  поставили 
                   на «Улисса» Джеймса Джойса?
                 </p>
               </div>
-            </article>
+            <article>
+              
           </li>
           <li class="lots_card-list-item">
-            <a href="#" class="card-link"></a>
+            <a href="#" class="card-link">
             <article class="card">
-              <div class="card_type_picture"></div>
-              <div class="overlay">
+              <div class="overlay"></div>
+              <div class="card_type card_type_picture">
                 <h3 class="card_title">
-                  Картина, которую повторит даже 5-летний сын<br />
+                  Картина, которую повторит даже 5-летний сын
                   маминой подруги
                 </h3>
-                <p class="card_text_picture">
-                  Ну действительно, там линия, тут кружочек, а <br />
+              </a>
+                <p class="card_text card_text_picture">
+                  Ну действительно, там линия, тут кружочек, а 
                   здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких
-                  полей, лесов, котиков... Сколько <br />
-                  бы вы на такое поставили, если бы не знали, что это <br />
-                  — одна из <br />
-                  революционных работ <br />
+                  полей, лесов, котиков... Сколько 
+                  бы вы на такое поставили, если бы не знали, что это 
+                  — одна из 
+                  революционных работ 
                   Кандинского?
                 </p>
               </div>
             </article>
+            
           </li>
         </ul>
         <a class="lots_look-more-link" href="#0">посмотреть больше</a>
@@ -144,14 +150,14 @@
         </div>
         <h3 class="about_title">Об аукционе</h3>
         <div class="about_text">
-          <p class="min_content">
+          <p>
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
-            один аукцион. Потому что кому нужен дневник девочки -<br />подростка
+            один аукцион. Потому что кому нужен дневник девочки - подростка
             или картина, которую может нарисовать даже ребёнок? Кому нужны все
             эти странные вещи, созданные любителями?
           </p>
-          <p class="large_content">
+          <p>
             Слишком сложные или, наоборот, слишком простые. Опережающие своё
             время. В пух и прах растерзанные критиками. Непринятые и непонятые.
             Когда-то они казались просто неудачными. Но, несмотря на критику,
@@ -163,18 +169,18 @@
       </section>
     </main>
     <footer class="footer">
-      <adress class="footer_adress">
-        <a class="phone" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="email" href="info@sobaka.ge">info@sobaka.ge</a>
-        <a class="adress"
+      <address class="footer_address"> 
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="info@sobaka.ge">info@sobaka.ge</a>
+        <a
           >наб. Принсенграхт 263- <br />
-          265, Амстердам</a
-        >
-      </adress>
+          265, Амстердам</a>
+      </address>
+    </div>
       <nav class="footer_menu">
         <ul class="footer_menu_links-list">
           <li class="footer_menu_links-list-item">
-            <a class="footer_menu_link_active" href="#0">главная</a>
+            <a class="footer_menu-link footer_menu_link_active" href="#0">главная</a>
           </li>
           <li class="footer_menu_links-list-item">
             <a class="footer_menu_link" href="#0">посмотреть лоты</a>
@@ -184,7 +190,7 @@
           </li>
         </ul>
       </nav>
-      <div class="footer_social-list">
+      <ul class="footer_social-list">
         <a href="#" class="youtube" title="YouTube">
           <img src="./images/yt.svg" alt="ютуб" class="social-icon" />
         </a>
@@ -198,7 +204,7 @@
             class="social-icon"
           />
         </a>
-      </div>
+      </ul>
     </footer>
   </body>
 </html>
