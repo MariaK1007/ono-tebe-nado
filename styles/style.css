@@ -87,10 +87,6 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-h1 {
-  letter-spacing: 31px;
-}
-
 .cover_title {
   display: flex;
   flex-direction: column;
