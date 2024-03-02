@@ -1,5 +1,4 @@
 body {
-  max-height: 3028px;
   background-color: rgba(255, 255, 255, 1);
 }
 
@@ -65,13 +64,13 @@ body {
 
 .cover {
   display: block;
-  margin-top: 96px;
+  margin-top: 95px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
-  padding: 167px 49px 54px 48px;
+  padding: 165px 49px 54px 48px;
   position: relative;
 }
 
@@ -98,7 +97,6 @@ h1 {
   position: relative;
   font-size: 100px;
   font-weight: 700;
-  letter-spacing: 31px;
   line-height: 120px;
   gap: 2px;
 }
@@ -111,17 +109,11 @@ h1 {
 .aligned-text_center {
   display: flex;
   justify-content: center;
-  letter-spacing: 30px;
 }
 
 .letter-spacing-extanded {
   display: flex;
   letter-spacing: 60px;
-}
-
-.letter-spacing_left {
-  display: flex;
-  letter-spacing: 30px;
 }
 
 .no-letter-spacing {
@@ -130,7 +122,6 @@ h1 {
 
 .aligned-text_right {
   display: flex;
-  letter-spacing: 60px;
   justify-content: flex-end;
 }
 
@@ -161,8 +152,8 @@ h1 {
   text-align: center;
   font-size: 22px;
   font-weight: 500;
-  padding: 15px 31px 10px 32px;
-  margin-top: 120px;
+  padding: 13px 31px 10px 32px;
+  margin-top: 123px;
   position: relative;
   font-family: inherit;
 }
@@ -183,7 +174,7 @@ h1 {
 .lots_card-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 27px 24px 31px 24px;
+  padding: 24px 24px 31px 24px;
   gap: 25px;
 }
 
@@ -293,6 +284,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 182px;
+  padding-bottom: 88px;
   gap: 78px;
 }
 
